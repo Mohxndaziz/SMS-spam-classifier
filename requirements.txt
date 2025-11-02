@@ -1,0 +1,46 @@
+# Spam Detection Project - Requirements
+# Python 3.8-3.12 required (TensorFlow 2.16+ supports Python 3.12)
+
+# Core Data Science Libraries
+numpy>=1.26.0,<2.0.0
+pandas>=2.3.0
+scipy>=1.16.0
+
+# Machine Learning
+scikit-learn>=1.7.0
+xgboost>=3.1.0
+tensorflow>=2.16.0
+keras>=3.12.0
+
+# Natural Language Processing
+nltk>=3.9.0
+regex>=2025.10.0
+
+# Text Processing
+chardet>=5.2.0
+wordcloud>=1.9.0
+
+# Visualization
+matplotlib>=3.10.0
+seaborn>=0.13.0
+pillow>=12.0.0
+
+# Jupyter & Development
+jupyter>=1.1.0
+ipykernel>=7.1.0
+ipython>=9.6.0
+notebook>=7.4.0
+jupyterlab>=4.4.0
+
+# Utilities
+joblib>=1.5.0
+tqdm>=4.67.0
+click>=8.3.0
+
+# Note: TensorFlow will automatically install additional dependencies including:
+# - absl-py, h5py, protobuf, grpcio, tensorboard, and others
+# 
+# NLTK Data Required (run after installation):
+# import nltk
+# nltk.download('punkt')
+# nltk.download('stopwords')
